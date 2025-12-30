@@ -104,12 +104,12 @@
 \end{flushleft}}
 
 \let\origabstract=\abstract
-\def\abstract{\origabstract\vspace*{-0.1ex}\indent 内容提要：}
+\def\abstract{\origabstract\vspace*{-0.1ex}\indent {\heiti 内容提要:}}
 
 \let\origendabstract=\endabstract
 \def\endabstract{\vskip2em\origendabstract}
 
-\newcommand{\keywords}[1]{\par 关键词：#1}
+\newcommand{\keywords}[1]{\par \vspace{1ex} \noindent {\heiti 关键词：}#1}
 
 \usepackage{indentfirst}
 
