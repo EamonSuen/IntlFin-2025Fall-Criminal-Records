@@ -1,0 +1,33 @@
+# --- LaTeX 编译中间文件 (Core) ---
+*.aux
+*.log
+*.out
+*.toc
+*.lot
+*.lof
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+
+# --- 参考文献中间文件 (BibLaTeX/Biber) ---
+# 你的模板使用了 biber，会产生这些文件
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# --- 操作系统文件 (Mac) ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- 编辑器配置 (VS Code / TeXShop) ---
+.vscode/
+*.nav
+*.snm
+
+# --- 输出文件 (可选) ---
+# 通常不建议上传 PDF，因为它是二进制大文件且随时可生成。
+# 但如果你想保留历史版本供导师查阅，可以在下面这行前面加 # 注释掉
+*.pdf

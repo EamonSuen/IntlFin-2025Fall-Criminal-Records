@@ -1,0 +1,50 @@
+\documentclass{chinese-erj}
+
+\title{您的论文标题 \thanks{本研究得到国家自然科学基金项目（编号：xxxx）的资助。感谢匿名审稿人的宝贵意见。文责自负。}}
+\author{王\quad 倩 \qquad 孙翊铭}
+\date{}
+\header{工作论文}
+
+
+% Enlish Titlepage
+\entitle{My Working Paper Title}
+\enauthor{Qian Wang \quad Yiming Sun} % 修改英文作者和单位
+\eninstitute{School of Economics, Jilin University}
+\enabstract{
+\lipsum*[3]\par
+\lipsum*[5]\par
+\lipsum*[7]
+}
+\enkeywords{ElegantLaTeX; Templates; Economic Research}
+\jel{L1,O1,V0,E1}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\zhlipsum*[5]
+\keywords{Elegant\LaTeX{} \quad \LaTeX{} 模板 \quad 经济研究}
+\end{abstract}
+
+\section{引   言}
+\zhlipsum[2-6]
+
+\section{实证检验}
+\zhlipsum[7-10] 通过研究 \cite{zheng2012nascent} \textcite{zheng2012nascent}
+\subsection{中文}
+\textcite{cn1} 通过研究 \zhlipsum*[1], \textcite{cn2,cn3} 发现 \zhlipsum*[2] 这些研究为我们提供了很好的参考价值~\cite{en1,en2,en3}。
+
+\[e = mc^2 \]
+
+\nocite{*}
+\erjref
+\printbibliography[heading=none]
+
+% Enlish Titlepage 
+\newpage          
+%\thispagestyle{empty} % (可选) 如果不想这页有页眉页脚，加上这一行
+\enmaketitle
+
+\end{document}
+
