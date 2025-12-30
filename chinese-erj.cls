@@ -71,7 +71,7 @@
 \usepackage{fancyhdr}
 \fancyhead{} % 清除原有设置
 \fancyhead[LE]{\small \the\header}  % 偶数页左侧：显示您在 .tex 里设置的 header 内容
-\fancyhead[OR]{\small \the\year{} 年工作论文} % 奇数页右侧：显示“2025 年工作论文”
+\fancyhead[OR]{\small \the\year{} 年\,  国际金融作业} % 奇数页右侧：显示“2025 年工作论文”
 \fancyfoot[OR,LE]{\thepage} % 页脚：页码在外侧
 \fancyfoot[C]{}
 
